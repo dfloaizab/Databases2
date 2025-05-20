@@ -1,6 +1,6 @@
 import pymongo
 
-# Establece la conexión con el servidor MongoDB (asegúrate de tener MongoDB en ejecución)
+# Establece la conexión con el servidor MongoDB (asegúrese de tener su instancia de MongoDB activa)
 # (Cambie por la cadena de conexión de su BD: Desde Compass, en el nombre de la BD, 
 # menú "...", opción "Copy connection string")
 client = pymongo.MongoClient("mongodb+srv://user_rs:BUofhv1dYD6sHMGQ@cluster0.8h8yu.mongodb.net/")
